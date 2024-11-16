@@ -5,32 +5,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home - Zumbi dos Palmares</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #0b1116;
+    }
+    header, footer {
+      background-color: #a4321b;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    a {
+      color: #e8be61;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .card {
+      border: none;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
-  <header class="bg-dark text-white py-3">
-    <div class="container text-center">
-      <h1>Zumbi dos Palmares</h1>
-    </div>
+  <header>
+    <h1>Zumbi dos Palmares</h1>
   </header>
 
   <main class="container my-5">
-    <h2 class="text-center">Bem-vindo ao nosso site</h2>
-    <p class="text-center">Explore a história, legado e cultura de Zumbi dos Palmares.</p>
-    <div class="row mt-4">
-      <div class="col-md-4">
-        <a href="conteudo-com-imagem.html" class="text-decoration-none">
+    <h2 class="text-center">Bem-vindo</h2>
+    <p class="text-center">Explore a história e cultura de Zumbi dos Palmares.</p>
+    <div class="row g-4 mt-4">
+      <div class="col-md-6">
+        <a href="conteudo-com-imagem.html">
           <div class="card">
-            <img src="imagem-exemplo.jpg" class="card-img-top" alt="Exemplo">
-            <div class="card-body">
+            <img src="monumento.jpg" class="card-img-top" alt="Monumento">
+            <div class="card-body text-center">
               <h5 class="card-title">Página com Imagem</h5>
             </div>
           </div>
         </a>
       </div>
-      <div class="col-md-4">
-        <a href="conteudo-sem-imagem.html" class="text-decoration-none">
+      <div class="col-md-6">
+        <a href="conteudo-sem-imagem.html">
           <div class="card">
-            <div class="card-body">
+            <div class="card-body text-center">
               <h5 class="card-title">Página sem Imagem</h5>
             </div>
           </div>
@@ -39,8 +65,8 @@
     </div>
   </main>
 
-  <footer class="bg-dark text-white text-center py-3">
-    &copy; 2024 Zumbi dos Palmares
+  <footer>
+    <p>&copy; 2024 Zumbi dos Palmares</p>
   </footer>
 </body>
 </html>
