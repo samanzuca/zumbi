@@ -2,35 +2,23 @@
   "caracteristicas": [
     {
       "titulo": "Desenho do rosto",
-      "descricao": "Desenho do rosto com feições negras, de gente como a gente."
+      "descricao": "Feições negras, representativas."
     },
     {
       "titulo": "Cabeça altiva",
-      "descricao": "Demonstrando a conhecida bravura de Zumbi."
+      "descricao": "Demonstrando bravura."
     },
     {
       "titulo": "Olhos grandes",
-      "descricao": "Olhos grandes, atentos, vigilantes."
+      "descricao": "Atentos e vigilantes."
     },
     {
       "titulo": "Nariz largo",
-      "descricao": "Nariz largo, típico da raça negra."
+      "descricao": "Típico da raça negra."
     },
     {
       "titulo": "Boca carnuda",
-      "descricao": "Boca carnuda, de lábios grossos."
-    },
-    {
-      "titulo": "Cabelos",
-      "descricao": "Cabelos em forma de capacete, lembrando os antigos guerreiros africanos."
-    },
-    {
-      "titulo": "Barba",
-      "descricao": "Barba, conforme a tradição dos homens negros."
-    },
-    {
-      "titulo": "Orelhas",
-      "descricao": "Orelhas com argolas, conforme a tradição dos homens negros."
+      "descricao": "Lábios grossos e expressivos."
     }
   ]
 }
